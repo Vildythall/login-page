@@ -1,0 +1,90 @@
+/************************************************************************************************************************************************
+                    GENERAL
+************************************************************************************************************************************************/
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    background: #fff;
+    color: #4c4c4c;
+    padding: 0;
+    margin: 0;
+}
+
+/************************************************************************************************************************************************
+                    LOGIN PAGE
+************************************************************************************************************************************************/
+
+.loginPage {
+    overflow: hidden;
+    position: absolute;
+    width: 460px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.loginPage .header {
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.loginPage .header h1 {
+    color: #4287ee;
+    font-size: 42px;
+    line-height: 63px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.loginPage .header h2 {
+    color: #6b7078;
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/************************************************************************************************************************************************
+                    FORM LAYOUT
+************************************************************************************************************************************************/
+
+.formBox label {
+    font-size: 16px;
+    line-height: 24px;
+    color: #252525;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.formBox .form-control {
+    color: #4287ee;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #787c83;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+/************************************************************************************************************************************************
+                    CUSTOM BUTTONS
+************************************************************************************************************************************************/
+
+.btn-blue {
+    background: #4287ee;
+    color: #fff;
+}
+
+.loginPage .btn-blue {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 26px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
